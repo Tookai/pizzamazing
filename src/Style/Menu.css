@@ -1,0 +1,28 @@
+.menu {
+  width: 73.5vw;
+  min-width: 500px;
+  height: auto;
+  background-color: rgba(255, 140, 60, 0.25);
+  border-radius: 5px;
+  padding-bottom: 20px;
+  margin-right: 0.5vw;
+}
+
+.menu__titre {
+  font-size: 3rem;
+  padding: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.menu__sousTitre {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-left: 70px;
+}
+
+.pizza__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

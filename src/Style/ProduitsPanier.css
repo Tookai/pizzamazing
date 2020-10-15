@@ -1,0 +1,48 @@
+.panier__rempli {
+  margin: 0 auto;
+}
+
+.panier__row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 16vw;
+  min-width: 270px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.panier__nom {
+  width: 7vw;
+  min-width: 90px;
+}
+
+.panier__prix {
+  width: 3vw;
+  min-width: 50px;
+  padding-left: 1vw;
+}
+
+.panier__btnrmv {
+  width: 6vw;
+  min-width: 70px;
+  padding-left: 1vw;
+}
+
+.panier__remove {
+  margin-bottom: 1vh;
+  background-color: rgba(255, 140, 60, 1);
+  border: 2px solid red;
+  border-radius: 20px;
+  outline: none;
+}
+
+.panier__remove:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.panier__remove:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+  border: 2px solid green;
+}

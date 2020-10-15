@@ -1,0 +1,9 @@
+.carte iframe {
+  width: 100%;
+  min-width: 290px;
+  height: 18vw;
+  min-height: 290px;
+  margin: auto;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 140, 60, 1);
+}

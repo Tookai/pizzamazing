@@ -1,0 +1,56 @@
+.pizzas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pizza {
+  width: 450px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  background-color: rgba(255, 140, 60, 0.5);
+}
+
+.pizza__image {
+  width: 180px;
+  height: auto;
+}
+
+.pizza__texte {
+  text-align: center;
+}
+
+.pizza__nom {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.pizza__description {
+  padding: 5px;
+}
+
+.pizza__button {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
+  background-color: rgba(255, 140, 60, 1);
+  border: 2px solid red;
+  border-radius: 20px;
+  outline: none;
+}
+
+.pizza__button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.pizza__button:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+  border: 2px solid green;
+}

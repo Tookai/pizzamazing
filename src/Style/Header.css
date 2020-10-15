@@ -1,0 +1,37 @@
+.header {
+  width: 100%;
+  min-width: 800px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 0.5vw;
+  background-color: rgba(255, 140, 60, 1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header__logo img {
+  width: 450px;
+  height: 150px;
+}
+
+/*
+.header__nav {
+  display: flex;
+}
+
+.header__nav span {
+  padding: 10px;
+  margin-right: 40px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.header__nav span:hover {
+  border: 2px solid green;
+}
+*/

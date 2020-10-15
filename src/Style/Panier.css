@@ -1,0 +1,69 @@
+.panier {
+  width: 100%;
+  min-width: 290px;
+  height: auto;
+  background-color: rgba(255, 140, 60, 0.25);
+  border-radius: 5px;
+  margin-top: 0.5vw;
+  position: sticky;
+  top: 0.5vw;
+}
+
+.panier__titre {
+  font-size: 2rem;
+  padding: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.panier__vide {
+  text-align: center;
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 5px;
+}
+
+.panier__plein {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.panier__total {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 15vw;
+  min-width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panier__commander {
+  width: 15vw;
+  min-width: 150px;
+  height: 5vh;
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: rgba(255, 140, 60, 1);
+  border: 2px solid red;
+  border-radius: 20px;
+  outline: none;
+}
+
+.panier__commander:hover {
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.panier__commander:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+  border: 2px solid green;
+}
+
+.panier__num {
+  font-size: 3rem;
+}
